@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sebasdeldihotmail.adivinaquien" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+
+        <activity
+            android:name=".MenuPersonajes"
+            android:label="@string/app_name" >
+
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Preguntas" />
+        <activity android:name=".MainActivity" />
+
+        <activity android:name=".PCarlos" />
+
+        <activity android:name=".PCat" />
+
+        <activity android:name=".PJime" />
+
+        <activity android:name=".PJuan" />
+        <activity android:name=".PJuana" />
+
+        <activity android:name=".PLeo" />
+
+        <activity android:name=".PMaria" />
+
+        <activity android:name=".PMateo" />
+
+        <activity android:name=".PMiguel" />
+
+        <activity android:name=".PPedro" />
+
+        <activity android:name=".PSarah" />
+
+        <activity android:name=".PVale" />
+
+
+
+
+
+
+
+        <activity android:name=".ValeAmp" />
+        <activity android:name=".SarahAmp" />
+        <activity android:name=".PedroAmp" />
+        <activity android:name=".CatAmp" />
+        <activity android:name=".JuanaAmp" />
+        <activity android:name=".JuanAmp" />
+        <activity android:name=".MiguelAmp" />
+        <activity android:name=".MateoAmp" />
+        <activity android:name=".MariaAmp" />
+        <activity android:name=".LeoAmp" />
+        <activity android:name=".JimeAmp" />
+        <activity android:name=".CarlosAmp" />
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+        <uses-permission android:name="android.permission.INTERNET" />
+
+
+
+    </application>
+
+
+
+
+
+</manifest>
